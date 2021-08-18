@@ -1,0 +1,44 @@
+.maincontainer{
+    height: 1000px;
+    width: 840px;
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.container1{
+    height: 200px;
+    width: 800px;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px;
+}
+
+.container2{
+    height: 200px;
+    width: 800px;
+    background-color: sandybrown;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 18px;
+}
+
+.container3{
+    height: 200px;
+    width: 800px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px;
+}
