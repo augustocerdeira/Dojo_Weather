@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    border: solid lightgrey;
+    height: 350px;
+    width: 750px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px 0 0 150px;
+}
+
+.box{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 750px;
+}
+
+h1{
+    margin: 0 0 10px 20px;
+}
+
+.user{
+    height: 100px;
+    width: 100px;
+    border: solid lightgrey;
+    border-radius: 100%;
+    margin: -60px 0 0 20px;
+}
+
+.map{
+    height: 20px;
+    width: 15px;
+}
+
+.gear{
+    height: 20px;
+    width: 20px;
+}
+
+.p1{
+    color: royalblue;
+    text-decoration: underline;
+}
+
+p{
+    margin: 0 10px 10px 20px;
+}
