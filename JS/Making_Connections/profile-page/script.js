@@ -4,12 +4,10 @@ function change() {
     changeUser.innerText =  "John Smith"
 }
 
-var removeUser = document.querySelector("#user")
 
-function removed(element){
+function removed(id){
+    var element = document.querySelector(id)
     element.remove();
-    removeUser.id = "#user";
-
 }
 
 var count = 2;
