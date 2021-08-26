@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo_Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <h1>No styling, just wanted to get JS properties working</h1>
+<body>
+    <div>
+        <div class="header">
+        <h1>Dojo Weather</h1>
+        <ul class="cities">
+            <li onclick="alert('Loading Weather Report...')">Burbank</li>
+            <li onclick="alert('Loading Weather Report...')">Chicago</li>
+            <li onclick="alert('Loading Weather Report...')">Dallas</li>
+        </ul>
+        </div>
+        <div>
+            <h2>Los Angeles</h2>
+            <span>
+                <p>Show temperature in</p>
+                <select name="degree" onchange="changeDeg(this)">
+                    <option>F</option>
+                    <option>C</option>
+                </select>
+            </span>
+        </div>
+        <div class="cookie1">
+            <div class="cookie" id="box">
+                <p class="font p" >We use cookies(sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span class="decocoockie">Readmore...</span></p>
+                <button onclick="removeBox()" class="btncoockie font accept">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
